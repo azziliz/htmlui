@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	
+	background: url(106826.original.jpg) no-repeat center fixed;
+	background-size: cover;
+	color: #28d7d1;
+	text-shadow:0px 0px 1px #011;
+	-webkit-font-smoothing: antialiased;
+}
+
+.login_box {
+	width: 300px;
+	height: 220px;
+	margin: auto;
+	border-radius: 3px;
+	/*margin-top: 200px;*/
+	padding: 50px;
+	position: absolute;
+	top: -webkit-calc( 50% - 160px );
+	left: -webkit-calc( 50% - 200px );
+	border: 1px solid #123f3f;
+	box-shadow: 0px 0px 20px rgba(200, 255, 255, 0.6);
+	transition: opacity 2s;
+}
+
+h1 {
+	margin-top: 0px;
+	border-top: 1px solid #266;
+	border-bottom: 1px solid #266;
+	background: no-repeat center fixed;
+	background-image: -webkit-linear-gradient(180deg, rgba(16, 46, 47, 0.8), rgba(16, 46, 47, 0.8)), url(106826.blur.jpg);
+	background-size: cover;
+	padding: 1px 10px;
+	text-align: center;
+}
+
+input, select {
+	float: right;
+	background: #103032 no-repeat center fixed;
+	background-image: -webkit-linear-gradient(180deg, rgba(16, 46, 47, 0.8), rgba(16, 46, 47, 0.8)), url(106826.blur.jpg);
+	background-size: cover;
+	color: #28d7d1;
+	border: 0px;
+	border-top: 1px solid #266;
+	border-bottom: 1px solid #266;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+	padding: 1px 5px;
+	text-shadow:0px 0px 1px #011;
+	-webkit-font-smoothing: antialiased;
+}
+
+label {
+	position: relative;
+	top: 2px;
+	text-shadow:0px 0px 3px #000;
+	-webkit-font-smoothing: antialiased;
+}
+
+input {
+	width: 170px;
+}
+
+select {
+	width: 180px;
+}
+
+input:focus, select:focus {
+	border: 0px;
+	border-top: 1px solid rgba(70, 30, 60, 0.8);
+	border-bottom: 1px solid rgba(70, 30, 60, 0.8);
+	outline-width: 0;
+}
+
+.blurred-bg {
+	background: no-repeat center fixed;
+	background-image: url(106826.blur.jpg);
+	background-size: cover;
+}
+
+.connect_button {
+	float: right;
+	text-align: center;
+	text-decoration:none;
+	width: 100px;
+	margin: auto;
+	background: no-repeat center fixed;
+	background-image: -webkit-linear-gradient(180deg, rgba(16, 46, 47, 0.8), rgba(16, 46, 47, 0.8)), url(106826.blur.jpg);
+	background-size: cover;
+	color: #28d7d1;
+	border: 1px solid #266;
+	border-radius: 3px;
+}
+
+.connect_button:hover {
+	background-image: -webkit-linear-gradient(180deg, rgba(70, 30, 60, 0.8), rgba(70, 30, 60, 0.8)), url(106826.blur.jpg);
+}
+
+.connect_button:active {
+	position: relative;
+	top: 1px;
+}
